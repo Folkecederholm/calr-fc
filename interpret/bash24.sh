@@ -6,4 +6,4 @@ sed '3s/^author/scheme-author/' |
 sed '5d' |
 sed 's/^  //' |
 sed 's/^base\([0-9][0-9A-F]\)/base\1-hex/' |
-aws 's/#//'
+sed 's/#//'
